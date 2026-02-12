@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      // Replace 'cedricmeuportof-main' with your actual repository name
+      // THIS IS THE FIX: It tells Vite your site is in a subfolder
       base: '/cedriporataofuncionamain/', 
       server: {
         port: 3000,
