@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Cedric</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+        background-color: #ffffff;
+        overflow-x: hidden;
+        cursor: none; /* Hide default cursor */
+        /* Lenis recommended css */
+        html.lenis, html.lenis body {
+          height: auto;
+        }
+        .lenis.lenis-smooth {
+          scroll-behavior: auto !important;
+        }
+        .lenis.lenis-smooth [data-lenis-prevent] {
+          overscroll-behavior: contain;
+        }
+        .lenis.lenis-stopped {
+          overflow: hidden;
+        }
+        .lenis.lenis-scrolling iframe {
+          pointer-events: none;
+        }
+      }
+      
+      /* Ensure cursor is hidden on interactive elements too */
+      a, button, input, textarea, select, .cursor-pointer {
+        cursor: none !important;
+      }
+
+      /* Disable image dragging for smoother scrolling experience */
+      img {
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-drag: none;
+        pointer-events: none; /* Let clicks pass through to container */
+      }
+    </style>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "three": "https://esm.sh/three@0.160.0",
+    "recharts": "https://esm.sh/recharts@2.10.3",
+    "@google/genai": "https://esm.sh/@google/genai@0.1.1",
+    "lucide-react": "https://esm.sh/lucide-react@0.309.0",
+    "lenis": "https://esm.sh/@studio-freight/lenis@1.0.33"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/cedriporataofuncionamain/assets/index-Be-Q8lGk.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
