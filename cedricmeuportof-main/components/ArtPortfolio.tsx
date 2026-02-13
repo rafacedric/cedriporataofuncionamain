@@ -15,13 +15,15 @@ interface ArtPortfolioProps {
 
 
 const GALLERY_ITEMS = [
-  { id: 1, src: `${import.meta.env.BASE_URL}PXL_20250820_200642276.jpg`, title: "Porco" },
-  { id: 2, src: `${import.meta.env.BASE_URL}PXL_20250813_132657005~2.jpg`, title: "Ponte de Sonderborg" },
-  { id: 3, src: `${import.meta.env.BASE_URL}PXL_20250723_183117285~2.jpg`, title: "Limões" },
-  { id: 4, src: `${import.meta.env.BASE_URL}PXL_20250610_070422514~2.jpg`, title: "Cristo Redentor" },
-  { id: 5, src: `${import.meta.env.BASE_URL}PXL_20240812_201747600.MP~2.jpg`, title: "Santa Ceia" },
-  { id: 6, src: `${import.meta.env.BASE_URL}PXL_20240731_193823264.jpg`, title: "Cerejas" },
-  { id: 7, src: `${import.meta.env.BASE_URL}PXL_20240106_133313208.jpg`, title: "Abstrato" }
+  { id: 8, src: `${import.meta.env.BASE_URL}macas.jpg`, title: "Maçãs " },
+  { id: 1, src: `${import.meta.env.BASE_URL}porco.jpg`, title: "Porco" },
+  { id: 2, src: `${import.meta.env.BASE_URL}ponte.jpg`, title: "Ponte de Sonderborg" },
+  { id: 3, src: `${import.meta.env.BASE_URL}limoes.jpg`, title: "Limões" },
+  { id: 4, src: `${import.meta.env.BASE_URL}cristo.jpg`, title: "Cristo Redentor" },
+  { id: 5, src: `${import.meta.env.BASE_URL}santaceia.jpg`, title: "Santa Ceia" },
+  { id: 6, src: `${import.meta.env.BASE_URL}cereja.jpg`, title: "Cerejas" },
+  { id: 7, src: `${import.meta.env.BASE_URL}abstrato.jpg`, title: "Abstrato" }
+  
 ];
 
 
