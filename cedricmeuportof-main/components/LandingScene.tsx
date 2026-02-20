@@ -55,8 +55,8 @@ const LandingScene: React.FC<LandingSceneProps> = ({
         preload="auto"
         // Ensure you have a 'main-bg-vertical.mp4' in your public folder
         src={isVertical 
-          ? `${import.meta.env.BASE_URL}main-bg-vertical.mp4` 
-          : `${import.meta.env.BASE_URL}main-bg.mp4`
+          ? `${import.meta.env.BASE_URL}main-bg-vertical.webm` 
+          : `${import.meta.env.BASE_URL}main-bg.webm`
         }
       />
     </div>
